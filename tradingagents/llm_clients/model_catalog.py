@@ -112,6 +112,14 @@ MODEL_OPTIONS: ProviderModeOptions = {
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
         ],
     },
+    "volcengine": {
+        "quick": [
+            ("Ark Code Latest - Volcengine", "ark-code-latest"),
+        ],
+        "deep": [
+            ("Ark Code Latest - Volcengine", "ark-code-latest"),
+        ],
+    },
 }
 
 

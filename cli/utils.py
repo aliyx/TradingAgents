@@ -242,6 +242,7 @@ def select_llm_provider() -> tuple[str, str | None]:
         ("OpenRouter", "openrouter", "https://openrouter.ai/api/v1"),
         ("Azure OpenAI", "azure", None),
         ("Ollama", "ollama", "http://localhost:11434/v1"),
+        ("Volcengine", "volcengine", "https://ark.cn-beijing.volces.com/api/coding/v3"),
     ]
 
     choice = questionary.select(

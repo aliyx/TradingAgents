@@ -32,6 +32,7 @@ _PROVIDER_CONFIG = {
     "glm": ("https://api.z.ai/api/paas/v4/", "ZHIPU_API_KEY"),
     "openrouter": ("https://openrouter.ai/api/v1", "OPENROUTER_API_KEY"),
     "ollama": ("http://localhost:11434/v1", None),
+    "volcengine": ("https://ark.cn-beijing.volces.com/api/coding/v3", "VOLCENGINE_API_KEY"),
 }
 
 
